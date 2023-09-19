@@ -95,8 +95,8 @@ console.log(data)
 
      <div class="main">
      <div class="cont">
-         <div class="imgContainer">
-             <img src={props.fooditem.img} alt=""/>
+         <div class="imgContainer" style={{height:"200px",width:'100%',overflow:'hidden'}}>
+             <img src={props.fooditem.img} alt="" style={{height:'100%'}}/>
          </div>
          <div class="inner"> 
 
